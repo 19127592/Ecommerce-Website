@@ -36,9 +36,6 @@ const productSchema = new mongoose.Schema({
     sold: {
         type: Number,
         default: 0
-    },
-    Brand: {
-        type: String
     }
 }, {
     timestamps: true
